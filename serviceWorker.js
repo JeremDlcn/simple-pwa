@@ -1,10 +1,10 @@
 const staticDashboard = "dashboard-v1";
 const assets = [
+    "/",
     "/index.html",
     "/style.css",
-    "/auth.js",
-    "/app.js",
-    "/logo.png",
+    "/js/app.js",
+    "/images/coffee.jpg",
 ];
 
 self.addEventListener("install", installEvent => {
